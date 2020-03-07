@@ -2,6 +2,7 @@ module.exports = {
   "folders": [
     "src/components",
     "src/routes",
+    "src/pages",
     "src/utils",
     "src/assets",
     "src/styles"

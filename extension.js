@@ -1,6 +1,4 @@
 const vscode = require('vscode')
-// const fs = require('fs')
-// const path = require('path')
 
 const message = require('./src/utils/message')
 const createFolderStructure = require('./src/utils/createFolderStructure')
@@ -11,8 +9,7 @@ const projectStructure = require('./src/config/projectStructure')
 **/
 
 const activate = (context) => {
-
-  
+    
   const folderCreate = ({name}) => {
     const [{ uri }] = vscode.workspace.workspaceFolders
     const { path: folderPath } = uri
@@ -28,18 +25,6 @@ const activate = (context) => {
     catch(error) {
       message('error', error)
     }
-    
-    
-
-    // for (const folder of foldersStructure) {
-    //   const folderURI = path.join(folderPath, folder)
-    //   if(!fs.existsSync(folderURI)) {
-    //     fs.mkdirSync(folderURI)
-    //   }
-    // }
-
-    
-    
   }
 
   const disposable = [
@@ -58,8 +43,6 @@ const activate = (context) => {
         if (!response) {
           return message('info', 'Command Canceled')
         }
-        // vscode.window.showInformationMessage(response)
-        // message('error', 'Error')
         folderCreate({name: response})
       })
     ),
