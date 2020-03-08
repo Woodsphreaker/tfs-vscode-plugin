@@ -7,7 +7,7 @@ const makeFileContents = ({root, path: filePath, files}) => {
     const file = path.join(root, filePath, name)
     if (!fs.existsSync(file)) {
       try {
-        message('info', file)
+        // message('info', file)
         fs.writeFileSync(file, contents)
       }
       catch (error) {
@@ -19,7 +19,7 @@ const makeFileContents = ({root, path: filePath, files}) => {
 
 const createFile = (root, files = []) => {
   if (!files.length) {
-    message('error', 'error')
+    message('error', 'Files to create is missing')
     return false
   }
 
