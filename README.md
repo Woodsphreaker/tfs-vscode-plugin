@@ -12,4 +12,4 @@ This is a simple extension that illustrates a number of concepts when it comes t
 
 It's pretty simple open up a `Markdown` file and the status bar will have an auto-updating wordcount in it...
 
-![TFS Default Project Structure Helper](images/intro.gif)
+![TFS Default Project Structure Helper](src/images/intro.gif)
