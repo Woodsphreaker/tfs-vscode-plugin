@@ -14,6 +14,9 @@ const createPage = ({name, files}) => {
   try {
     createFolderStructure(folderPath, foldersStructure)
     createFiles(folderPath, files)
+    // vscode.commands.executeCommand()
+
+    // vscode.commands.executeCommand('', `${folderPath}/src/pages/${name}`)
     message('info', `${name} page successfully created`)
   }
   catch(error) {

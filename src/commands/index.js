@@ -3,6 +3,7 @@ const createPage = require('../utils/createPage')
 const createFolderStructure = require('../../src/utils/createFolderStructure')
 const createFiles = require('../../src/utils/createFiles')
 const projectStructure = require('../../src/config/projectStructure')
+const {pageDefault} = require('../config/filesContents')
 
 const createReactNativeDefaultPage = (vscode) => (
     vscode.window.showInputBox({
@@ -20,7 +21,7 @@ const createReactNativeDefaultPage = (vscode) => (
           "elements": [
             {
               "name": "index.js",
-              "contents": ""
+              "contents": pageDefault
             },
             {
               "name": "styles.js",
