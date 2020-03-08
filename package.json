@@ -15,20 +15,12 @@
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
-      "command": "extension.loadMessage",
-			"title": "Load Message"
+      "command": "extension.createReactNativeDefaultPage",
+			"title": "tfs-create-react-native-default-page"
 		},
 		{
-      "command": "extension.loadMessage2",
-			"title": "Load Message 2"
-		},
-		{
-      "command": "extension.createPage",
-			"title": "tfs-create-page"
-		},
-		{
-      "command": "extension.createProjectStructure",
-			"title": "tfs-create-project-structure"
+      "command": "extension.createReactNativeProjectStructure",
+			"title": "tfs-create-react-native-project-structure"
 		}
 	]
 	},

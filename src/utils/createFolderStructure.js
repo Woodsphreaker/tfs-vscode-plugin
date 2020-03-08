@@ -1,20 +1,9 @@
 const fs = require('fs')
 const path = require('path')
 
-const makeStructure = (root, paths) => {
-  if (!root) {
-    return false
-  }
-
-  for (const path of paths) {
-    makeDirectory(root, path)
-  }
-}
-
 const makeDirectory = (root, folderPath) => {
   if (!folderPath) {
-
-    return false
+    throw new Error('Folder path is required')
   }
 
   const pathParts = folderPath.split('/')
@@ -28,6 +17,16 @@ const makeDirectory = (root, folderPath) => {
     return acc
   }, '')
 
+}
+
+const makeStructure = (root, paths) => {
+  if (!root) {
+   throw new Error('Root is missing')
+  }
+
+  for (const path of paths) {
+    makeDirectory(root, path)
+  }
 }
 
 module.exports = makeStructure
