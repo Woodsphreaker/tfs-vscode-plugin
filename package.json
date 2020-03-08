@@ -1,11 +1,12 @@
 {
-	"name": "hello",
-	"displayName": "Hello",
-	"description": "",
-	"version": "0.0.1",
+	"name": "tfs-default-project-structure",
+	"displayName": "TFS - Default Project Structure",
+	"description": "Helpers to create a default project in React or React Native",
+  "version": "0.0.1",
+  "publisher": "tfs-pub",
 	"engines": {
 		"vscode": "^1.42.0"
-	},
+  },
 	"categories": [
 		"Other"
 	],
@@ -24,7 +25,11 @@
 				"title": "tfs-create-react-native-project-structure"
 			}
 		]
-	},
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Woodsphreaker/tfs-vscode-plugin"
+  },
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "yarn run lint",

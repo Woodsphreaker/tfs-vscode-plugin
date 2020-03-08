@@ -30,7 +30,6 @@ const createReactNativeDefaultPage = (vscode) => (
           ]
         }
       ]
-
       createPage({name: response, files})
     })
 )
