@@ -1,6 +1,4 @@
-<h3 align="center">TFS - Default Project Structure Helper</h3>
- 
-## Sobre o Projeto
+# TFS - Default Project Structure Helper
 
 Esta extensão tem como objetivo ajudar e padronizar a criação de um novo projeto em React ou React Native, baseado em regras de estrutura e criação de componentes
 
@@ -25,7 +23,7 @@ Depois de instalar a extensão, você deve ativar o **Command Pallete** através
 | **`tfs-create-react-native-project-structure`** | Cria uma nova estrutra de pastas e arquivos para projetos React Native|
 | **`tfs-create-react-native-default-page`** | Cria uma nova página e importa o componente de página padrão|                                             |
 
-![TFS Default Project Structure Helper](src/images/intro.gif)
+![TFS Default Project Structure Helper](https://raw.githubusercontent.com/Woodsphreaker/tfs-vscode-plugin/master/src/images/intro.gif)
 
 ## Licença
 

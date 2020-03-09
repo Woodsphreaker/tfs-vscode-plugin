@@ -2,13 +2,13 @@
 	"name": "tfs-default-project-structure",
 	"displayName": "TFS - Default Project Structure",
 	"description": "Helpers to create a default project in React or React Native",
-	"version": "0.0.2",
+	"version": "0.0.5",
 	"author": {
 		"name": "Woods"
 	},
 	"galleryBanner": {
-		"color": "#7159C1",
-		"theme": "dark"
+		"color": "#eff1f3",
+		"theme": "light"
 	},
   "publisher": "tfs-pub",
 	"engines": {
@@ -34,7 +34,7 @@
 			}
 		]
   },
-  "license": "",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Woodsphreaker/tfs-vscode-plugin"
