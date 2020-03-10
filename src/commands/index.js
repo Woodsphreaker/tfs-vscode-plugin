@@ -37,7 +37,7 @@ const createReactNativeDefaultPage = (vscode) => (
 const createReactNativeProjectStructure = (vscode) => {
 
   const [{ uri }] = vscode.workspace.workspaceFolders
-  const { path: folderPath } = uri
+  const { fsPath: folderPath } = uri
   const { folders, files } = projectStructure
 
   try {

@@ -9,7 +9,6 @@ const {
 **/
 
 const activate = (context) => {
-
   const disposable = [
     vscode.commands.registerCommand('extension.createReactNativeDefaultPage', () => createReactNativeDefaultPage(vscode)),
     vscode.commands.registerCommand('extension.createReactNativeProjectStructure', () => createReactNativeProjectStructure(vscode))

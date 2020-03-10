@@ -5,7 +5,7 @@ const message = require('./message')
 
 const createPage = ({name, files}) => {
   const [{ uri }] = vscode.workspace.workspaceFolders
-  const { path: folderPath } = uri
+  const { fsPath: folderPath } = uri
 
   const foldersStructure = [
     `src/pages/${name}`

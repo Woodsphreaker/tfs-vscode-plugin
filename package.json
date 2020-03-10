@@ -2,7 +2,7 @@
 	"name": "tfs-default-project-structure",
 	"displayName": "TFS - Default Project Structure",
 	"description": "Helpers to create a default project in React or React Native",
-	"version": "0.0.5",
+	"version": "0.0.7",
 	"author": {
 		"name": "Woods"
 	},
